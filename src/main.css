@@ -1,0 +1,15 @@
+.main-contant {
+    background-color: #eeeeee;
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    min-height: 555px;
+}
+.main-contant > div {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.main-contant div {
+    box-sizing: border-box;
+}

@@ -1,0 +1,34 @@
+.cell {
+    width: 72px;
+    height: 72px;
+}
+.cell.naught {
+    background: url('./../images/naught.svg') no-repeat;
+    background-size: 100%;
+}
+.cell.cross {
+    background: url('./../images/cross.svg') no-repeat;
+    background-size: 100%;
+}
+
+.cell svg {
+    width: 70px;
+    height: 70px;
+}
+.gamer .cell svg{
+    width: 22px;
+    height: 22px;
+}
+.cell.cross svg .str{
+    stroke:#bdbdbd;
+    stroke-width:4
+}
+.cell.naught svg .str {
+    stroke: #5AA3ED;
+    stroke-width: 4;
+    fill: none;
+}
+
+.game-content.observer .cell svg .str{
+    stroke: #bdbdbd;
+}

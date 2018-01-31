@@ -1,0 +1,43 @@
+.game-list {
+    display: flex;
+    flex-wrap: wrap
+}
+.game-list li{
+    list-style: none;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    float: left;
+    position: relative;
+    word-wrap: break-word;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #eaeaea;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.add-game {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #0f9c8f;
+    border-radius: 20px;
+    background-color: #009688;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+    position: relative;
+    float: right;
+    right: 24px;
+    color: white;
+    line-height: 28px;
+    text-align: center;
+    font-size: 23px;
+    cursor: pointer;
+}
+.list-gamer-info {
+    width: 325px;
+    height: 40px;
+    border-bottom: 1px solid #d1d1d1;
+    line-height: 40px;
+    color: #1f1f1f;
+}
